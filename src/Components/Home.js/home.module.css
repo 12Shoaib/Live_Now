@@ -88,6 +88,7 @@
     padding: 1rem;
     border-radius: 50%;
     cursor: pointer;
+    position: fixed;
 }
 .chat_Icon{
     font-size: 1.2rem;
@@ -105,4 +106,46 @@
     border-radius: 10px;
     overflow:auto;
 
+}
+.main__Content{
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 14rem;
+    left: 2rem;
+    padding: 10px;
+    margin: 0px;
+    width: 52rem;
+    border: 0.1rem solid white;
+}
+.heading{
+    margin: 0px;
+    padding: 5Px;
+    font-weight: 600;
+    font-size: 3rem;
+}
+.hello_Tag{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 600;
+    position: absolute;
+    top: 33rem;
+    left: 58rem;
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 5px;
+    position: fixed;
+}
+.close{
+    font-size: 0.4rem;
+    background-color: white;
+    position: absolute;
+    top: 33rem;
+    left: 57rem;
+    padding: 2px;
+    border-radius: 30px;
+    cursor: pointer;
+    position: fixed;
 }

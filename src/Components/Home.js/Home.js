@@ -6,19 +6,20 @@ import {GrClose} from 'react-icons/gr'
 import {useState} from 'react'
 import { useEffect } from 'react'
 
-
 const Home = () => {
     const [show , setShow] = useState(false)
     const [question , setQuestion] = useState(0)
+    const [bot , setBot] = useState(false)
 
     useEffect(() => {
      setTimeout(() => {
-        setShow(true)
+        setBot(true)
      } , 3000)   
     } , [])
 
     const toggleDialog = () => {
         setShow((prev) => !prev)
+        setBot(false)
     }
     const toggleQues1 = () => {
         setShow(false)
@@ -96,8 +97,30 @@ const Home = () => {
              <p className={home.dialog_Bot}>Dont'worry our team will be connecting you soon.</p>
              <p className={home.dialog_Bot} onClick={closeQuestion}>go to main menu</p>
              </div>}
+             <div className={home.main__Content}>
+            <span className={home.heading}>   
+            LiveNow , One stop<br/> solution for all web hosting problems</span>
+             </div>
+            {bot && <><GrClose onClick={() => setBot(false)} className={home.close} /><p className={home.hello_Tag}> Hi Iam Shoaib's bot here..!!&#128515;</p></>}
              <div className={home.fixed__ChatButton}>
                 <button className={home.fixed_Button} onClick={toggleDialog}>{show ? <GrClose className={home.chat_Icon} /> :<BsChatDotsFill className={home.chat_Icon}/>}  </button>
+             </div>
+             <div>
+                <h2>HElooW</h2>
+                <h2>HElooW</h2>
+                <h2>HElooW</h2>
+                <h2>HElooW</h2>
+                <h2>HElooW</h2>
+                <h2>HElooW</h2>
+                <h2>HElooW</h2>
+                <h2>HElooW</h2>
+                <h2>HElooW</h2>
+                <h2>HElooW</h2>
+                <h2>HElooW</h2>
+                <h2>HElooW</h2>
+                <h2>HElooW</h2>
+                <h2>HElooW</h2>
+                <h2>HElooW</h2>
              </div>
         </div>
     )
