@@ -5,6 +5,9 @@ import {BsChatDotsFill} from 'react-icons/bs'
 import {GrClose} from 'react-icons/gr'
 import {useState} from 'react'
 import { useEffect } from 'react'
+import Poster from '../Poster/Poster'
+import Frequently from '../Frequentlyasked/Frequently'
+import Footer from '../Footer/Footer'
 
 const Home = () => {
     const [show , setShow] = useState(false)
@@ -86,7 +89,7 @@ const Home = () => {
              <h2 className={home.heading__Logo}> <AiOutlineCloudServer className={home.logo} /> LiveNow</h2>
              <p className={home.dialog_Option}>Iam confused can you help </p>
              <p className={home.dialog_Bot}>Hi , Iam Shoaib's robot </p>
-             <p className={home.dialog_Bot}>If your a buisness want to grow in digital connect Livenow@1.org , if want to start web development get started - https://developer.mozilla.org/en-US/docs/Learn </p>
+             <p className={home.dialog_Bot}>If your a buisness want to grow in digital connect Livenow@1.org ,No matter of size if want to start web development get started - https://developer.mozilla.org/en-US/docs/Learn </p>
              <p className={home.dialog_Bot} onClick={closeQuestion}>go to main menu</p>
              </div>}
             {question === 5 && <div className={home.dialog_Question1}>
@@ -105,23 +108,14 @@ const Home = () => {
              <div className={home.fixed__ChatButton}>
                 <button className={home.fixed_Button} onClick={toggleDialog}>{show ? <GrClose className={home.chat_Icon} /> :<BsChatDotsFill className={home.chat_Icon}/>}  </button>
              </div>
-             <div>
-                <h2>HElooW</h2>
-                <h2>HElooW</h2>
-                <h2>HElooW</h2>
-                <h2>HElooW</h2>
-                <h2>HElooW</h2>
-                <h2>HElooW</h2>
-                <h2>HElooW</h2>
-                <h2>HElooW</h2>
-                <h2>HElooW</h2>
-                <h2>HElooW</h2>
-                <h2>HElooW</h2>
-                <h2>HElooW</h2>
-                <h2>HElooW</h2>
-                <h2>HElooW</h2>
-                <h2>HElooW</h2>
+             <div className={home.mini_Card}>
+            <h1 className={home.heading2}>Dedicated Servers with exceptional 24/7/365 Support</h1>
+            <h2 className={home.subHeading1}>Ready to scale your buisness.</h2>
+            <h4 className={home.mini_heading}> Choose Your Server now</h4>
              </div>
+             <Poster />
+             <Frequently />
+             <Footer />
         </div>
     )
 }

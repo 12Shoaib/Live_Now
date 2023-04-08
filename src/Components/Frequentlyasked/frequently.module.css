@@ -1,0 +1,42 @@
+.main__Component{
+    position: absolute;
+    top: 85rem;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(255, 255, 255, 0.795);
+    height: 40rem;
+    width: 100vw;
+}
+.heading{
+    padding: 0px;
+    margin: 0px;
+    margin-left: 4rem;
+    margin-top: 5rem;
+    font-size: 2.5rem;
+}
+.question_Wrapper{
+    border-top: 0.1rem solid black;
+    display: inline-block;
+    float: right;
+    margin: 1rem;
+    margin-right: 14rem;
+    cursor:pointer;
+    width: 40rem;
+    padding:1rem ;
+}
+.logo{
+    font-size: 1rem;
+    float: right;
+}
+.heading_Wrapper{
+    display: flex;
+    align-items: center;
+    gap: 22rem;
+    padding: 0px;
+    margin: 0px;
+}
+.answer{
+    margin-top: 2rem;
+    padding: 0px;
+    margin: 0px;
+}

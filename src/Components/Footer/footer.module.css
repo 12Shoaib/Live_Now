@@ -1,0 +1,19 @@
+.main_Component{
+    position: absolute;
+    top: 125rem;
+    height: 25rem;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+.footer_heading{
+    padding: 0px;
+    margin: 0px;
+    margin: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.logo{
+    font-size: 3rem;
+}

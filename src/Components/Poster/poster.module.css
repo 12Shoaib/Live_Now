@@ -1,0 +1,14 @@
+.main__Component{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(4, 4, 65);
+    height: 30rem;
+    width: 100vw;
+    position: absolute;
+    top: 55rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+
+}

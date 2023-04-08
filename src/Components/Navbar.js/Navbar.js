@@ -1,7 +1,6 @@
 import navbar from './navbar.module.css'
-import {AiOutlineCloudServer} from 'react-icons/ai'
 import  {useNavigate} from 'react-router-dom'
-
+import { AiOutlineCloudServer } from 'react-icons/ai'
 
 const Navbar = () => {
     const navigate = useNavigate()
