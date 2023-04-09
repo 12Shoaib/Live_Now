@@ -1,19 +1,48 @@
 .main_Component{
     position: absolute;
-    top: 125rem;
+    top: 130rem;
     height: 25rem;
     width: 100vw;
     background-color: black;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .footer_heading{
     padding: 0px;
     margin: 0px;
-    margin: 4rem;
     display: flex;
     align-items: center;
-    gap: 1rem;
+    cursor: pointer;
 }
 .logo{
     font-size: 3rem;
+}
+.social_Media{
+    display: flex;
+    flex-direction: column;
+}
+.links{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin: .6rem;
+}
+.copyRights{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: .6rem;
+    cursor: pointer;
+}
+.copyRights_Container{
+    display: flex;
+    flex-direction: column;
 }

@@ -33,13 +33,13 @@ const Frequently = () => {
         setShow((prev) => !prev)
     }
     const toggleButton1 = () => {
-        setShow((prev) => !prev)
+        setShow1((prev) => !prev)
     }
     const toggleButton2 = () => {
-        setShow((prev) => !prev)
+        setShow2((prev) => !prev)
     }
     const toggleButton3 = () => {
-        setShow((prev) => !prev)
+        setShow3((prev) => !prev)
     }
 
     return(

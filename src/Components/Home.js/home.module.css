@@ -112,7 +112,7 @@
 .main__Content{
     color: white;
     position: absolute;
-    z-index: 1;
+    z-index: -1;
     top: 14rem;
     left: 2rem;
     padding: 10px;

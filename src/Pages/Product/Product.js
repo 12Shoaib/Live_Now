@@ -1,11 +1,21 @@
 import product from './product.module.css'
+import Navbar from '../../Components/Navbar.js/Navbar'
+import ProductCard from '../../Atoms/productCard/ProductCard'
 
 const Product = () => {
     return (
+        <>
+            <Navbar />
         <div className={product.main__Component}>
-            <h2> HEllo iam prodiuct page</h2>
-
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
         </div>
+        </>
     )
 }
 
