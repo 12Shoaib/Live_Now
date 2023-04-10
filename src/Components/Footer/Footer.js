@@ -17,9 +17,9 @@ const Footer = () => {
        </div>
        <div className={footer.social_Media}>
        <a className={footer.links} href='https://www.youtube.com/'><BsYoutube/> Youtube</a>
-       <a className={footer.links} href='https://www.youtube.com/'> <BsWhatsapp /> Whatsapp</a>
-       <a className={footer.links} href='https://www.youtube.com/'><FaTwitterSquare /> Twitter</a>
-       <a className={footer.links} href='https://www.youtube.com/'><GrInstagram/>Instagram</a>
+       <a className={footer.links} href='https://web.whatsapp.com/'> <BsWhatsapp /> Whatsapp</a>
+       <a className={footer.links} href='https://twitter.com/'><FaTwitterSquare /> Twitter</a>
+       <a className={footer.links} href='https://www.instagram.com/'><GrInstagram/>Instagram</a>
         </div>
     </div>
     )

@@ -1,0 +1,77 @@
+.main__Component{
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    height: 35rem;
+    width:100vw;
+    background-color:#313347;
+    padding-top: 9rem;
+    color: white;
+    display: flex;
+    top: 130rem;
+}
+.heading{
+    padding: 0px;
+    margin: 0px;
+    font-size: 4rem;
+    font-weight: 650;
+    text-transform: capitalize;
+    width: 22rem;
+    margin-left: 3.5rem;
+    border-right:0.6rem solid rgba(255, 255, 255, 0.514) ;
+    height: 25rem;
+}
+.div1{
+    position: absolute;
+    height: 16rem;
+    width: 15rem;
+    background-color: rgba(245, 245, 245, 0.895);
+    border-radius: 10px;
+    left: 30rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.div2{
+    position: absolute;
+    height: 16rem;
+    width: 15rem;
+    background-color: rgba(245, 245, 245, 0.895);
+    border-radius: 10px;
+    left: 46.5rem;
+    top: 15rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.div3{
+    position: absolute;
+    height: 16rem;
+    width: 15rem;
+    background-color: rgba(245, 245, 245, 0.895);
+    border-radius: 10px;
+    left: 63rem;
+    top: 20rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.heading2{
+    font-size:1.3rem;
+    font-weight: 559;
+    color: rgb(54, 139, 214);
+
+}
+.logo{
+    color: rgb(54, 139, 214);
+    font-size: 2rem;
+
+}
+.subheading{
+    color: gray;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}

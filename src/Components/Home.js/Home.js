@@ -8,6 +8,7 @@ import { useEffect } from 'react'
 import Poster from '../Poster/Poster'
 import Frequently from '../Frequentlyasked/Frequently'
 import Footer from '../Footer/Footer'
+import Design from '../Design/Design'
 
 const Home = () => {
     const [show , setShow] = useState(false)
@@ -115,6 +116,7 @@ const Home = () => {
              </div>
              <Poster />
              <Frequently />
+             <Design />
              <Footer />
         </div>
     )
