@@ -1,0 +1,8 @@
+.main__Component{
+    position: relative;
+    height: 15rem;
+    width: 12rem;
+    background: rgb(218, 216, 216);
+    left: 36rem;
+    border-radius: 10px;
+}

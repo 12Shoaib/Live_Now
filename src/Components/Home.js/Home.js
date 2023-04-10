@@ -52,7 +52,7 @@ const Home = () => {
         <div className={home.main__Component}>
             <Navbar />
             <video 
-            src = 'https://res.cloudinary.com/dmm420bfv/video/upload/v1680824077/WhatsApp_Video_2023-04-07_at_5.02.17_AM_tik3nc.mp4'
+            src = 'https://res.cloudinary.com/dmm420bfv/video/upload/v1681111852/WhatsApp_Video_2023-04-10_at_1.00.13_PM_eliz0x.mp4'
              muted autoPlay loop />
              {show && <div className={home.dialog__Box}>
                 <h2 className={home.heading__Logo}> <AiOutlineCloudServer className={home.logo} /> LiveNow</h2>

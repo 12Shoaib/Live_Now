@@ -11,6 +11,7 @@ const ProductCard = (props) => {
             <p className={productcard.price}>{props.element.Price}</p>
             <p className={productcard.sub_heading2}>{props.element.timeToDeliver}</p>
             <p className={productcard.sub_heading2}>{props.element.contract}</p>
+            <button className={productcard.button}>BuyNow</button>
         </div>
     )
 

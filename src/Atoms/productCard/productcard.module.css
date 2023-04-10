@@ -3,7 +3,7 @@
     top: 8rem;
     padding: 0px;
     margin: 0px;
-    height: 29rem;
+    height: 30rem;
     width: 24rem;
     border-radius: 15px;
     background-color: white;
@@ -30,6 +30,8 @@
     color: gray;
     font-size: 1rem;
     font-weight: 600;
+    margin-bottom: .3rem;
+
 }
 .sub_heading1{
     padding: 0px;
@@ -37,6 +39,7 @@
     color: gray;
     font-size: 1rem;
     font-weight: 600;
+    margin-bottom: .3rem;
 }
 .sub_heading2{
     padding: 0px;
@@ -44,16 +47,39 @@
     color: gray;
     font-size: 1rem;
     font-weight: 500;
-
+    margin-bottom: .3rem;
 }
 .heading2{
     padding: 0px;
     margin: 0px;
     letter-spacing: 0.05rem;
+    margin-bottom: .3rem;
 }
 .price{
     font-size: 1.1rem;
     font-weight: bold;
     padding: 0px;
     margin: 0px;
+    margin-bottom: .3rem;
+}
+.button{
+    padding: 0px;
+    margin: 0px;
+    height: 2.6rem;
+    width: 14rem;
+    outline: none;
+    border: 0.01rem solid black;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.04rem;
+}
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.749);
+    cursor: pointer;
+}
+.button:active{
+    background-color:rgba(0, 0, 0, 0.863);
 }

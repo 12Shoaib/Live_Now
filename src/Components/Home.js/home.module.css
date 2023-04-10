@@ -26,9 +26,11 @@
     width: 21rem;
     top: 11rem;
     left: 52rem;
-    background-color: rgba(226, 226, 226, 0.865);
+    background-color: rgba(226, 226, 226, 0.975);
     border-radius: 10px;
     overflow:auto;
+    position: fixed;
+    z-index: 1;
 }
 ::-webkit-scrollbar{
     width: 5px;
@@ -104,10 +106,11 @@
     width: 21rem;
     top: 11rem;
     left: 52rem;
-    background-color: rgba(226, 226, 226, 0.865);
+    background-color: rgba(226, 226, 226, 0.975);
     border-radius: 10px;
     overflow:auto;
-
+    position: fixed;
+    z-index: 1;
 }
 .main__Content{
     color: white;
