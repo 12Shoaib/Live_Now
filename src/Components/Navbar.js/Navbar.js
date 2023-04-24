@@ -8,19 +8,19 @@ const Navbar = () => {
         navigate('/')
     }
     const redirectContact = () => {
-        navigate('/Contact')
+        // navigate('/Contact')
     }
     const redirectGuide = () => {
-        navigate('/Guide')
+        // navigate('/Guide')
     }
     const redirectProducts = () => {
         navigate('/Product')
     }
     const redirectAbout = () => {
-        navigate('/About')
+        // navigate('/About')
     }
     const redirectWhy = () => {
-        navigate('/WhyUs')
+        // navigate('/WhyUs')
     }
         return(
         <div className={navbar.main__Container}>

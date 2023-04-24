@@ -1,11 +1,15 @@
 import about from './about.module.css'
+import Navbar from '../../Components/Navbar.js/Navbar'
 
 const About = ( ) => {
 
     return(
+        <>
+            <Navbar />
         <div className={about.main__Component}>
-            <h2>Hello iam About page</h2>
+            <span> HEllo </span>
         </div>
+        </>
     )
 }
 
