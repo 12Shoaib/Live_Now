@@ -1,0 +1,9 @@
+.input_Field{
+    height: 2.5rem;
+    width: 18rem;
+    outline: none;
+    border: 0.01rem solid whitesmoke;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding-left: 0.6rem;
+}

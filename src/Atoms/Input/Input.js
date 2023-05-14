@@ -1,9 +1,9 @@
 import input from './input.module.css'
 
-const Input = () => {
+const Input = ({placeholder , type}) => {
     return (
         <div className={input.main__Component}>
-            <input className={input.input_Field} type='text' />
+            <input className={input.input_Field} placeholder={placeholder} type={type} required/>
 
         </div>
     )

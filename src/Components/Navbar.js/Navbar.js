@@ -8,7 +8,7 @@ const Navbar = () => {
         navigate('/')
     }
     const redirectContact = () => {
-        // navigate('/Contact')
+        navigate('/Contact')
     }
     const redirectGuide = () => {
         // navigate('/Guide')
@@ -22,12 +22,15 @@ const Navbar = () => {
     const redirectWhy = () => {
         // navigate('/WhyUs')
     }
+    const redirectLogin = () => {
+        navigate('/clientLogIn')
+    }
         return(
         <div className={navbar.main__Container}>
 
         <div className={navbar.header}>
             <p className={navbar.menu__Options} onClick={redirectContact}> Contact</p>            
-            <p className={navbar.menu__Options}> Client log-in</p>            
+            <p onClick={redirectLogin} className={navbar.menu__Options}> Client log-in</p>            
             <p className={navbar.menu__Options} onClick={redirectGuide}> Guide</p>            
             </div>
             <h1 onClick={redirectHome} className={navbar.heading__Wrapper}>

@@ -5,6 +5,8 @@ import About from './Pages/About/About'
 import  Contact from './Pages/Contact/Contact'
 import Guide from './Pages/Guide/Guide'
 import WhyUs from './Pages/WhyUs/WhyUs'
+import SignIn from './Pages/SignIn/Signin'
+import SignUp from './Pages/SignUp/SignUp'
 
 const App = () => {
 return (
@@ -16,6 +18,8 @@ return (
       <Route path='/Product' element={<Product />} />
       <Route path='/Guide' element={<Guide/>} />
       <Route path='/WhyUs' element={<WhyUs />} />
+      <Route path='/clientlogin' element={<SignIn />} />
+      <Route path='/clientsignup' element={<SignUp />} />
     </Routes>
   </div>
 )

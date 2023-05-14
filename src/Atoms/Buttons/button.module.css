@@ -1,0 +1,19 @@
+.button_style{
+    height: 2.5rem;
+    width: 8.4rem;
+    outline: none;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: 0.01rem solid whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button_style:hover{
+    background-color: rgba(245, 245, 245, 0.845);
+
+}
+.button_style:active{
+    background-color: white;
+}

@@ -1,10 +1,10 @@
 import button from './button.module.css'
 
-const Button = () => {
+const Button = ({name , onClick}) => {
     return(
         <div className={button.main__Component}>
         
-        <button> + </button>
+        <button onClick={onClick} className={button.button_style}>{name}</button>
 
         </div>
     )
