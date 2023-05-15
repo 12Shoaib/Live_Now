@@ -1,6 +1,111 @@
 .main__component{
-    height: 100vh;
+    height: auto;
     width: 100vw;
-    background-color: black;
     color: white;
+    background-color: black;
+}
+.container{
+    padding-top:7rem;
+    color: white;
+    margin-left: 1rem;
+}
+.card{
+    padding: 0px;
+    margin: 0px;
+    height: 20rem;
+    width: 17rem;
+    background-color: rgba(30, 30, 30, 0.938);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+    gap: 1rem;
+}
+.logo{
+    padding: 0px;
+    margin: 0px;
+    font-size: 2.5rem;
+    color: rgba(0, 0, 255, 0.639);
+}
+.text{
+    width: 15rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 1.5rem;
+}
+.title{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
+}
+.card_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+.icon1{
+    color: rgba(25, 99, 218, 0.5);
+    font-size: 3rem;
+}
+.icon2{
+    color: purple;
+    font-size: 2.7rem;
+}
+.icon3{
+    color: lightgreen;
+    font-size: 3rem;
+    padding: 0px;
+    margin: 0px;
+}
+.poster{
+    height: auto;
+    width: 98vw;
+    background-color: white;
+    color: black;
+    display: flex;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+.section_one{
+    flex: 0.5;
+    padding: 1rem;
+    border-right: 0.2rem solid purple;
+    border-radius: 4px;
+    padding-left: 4rem;
+}
+.section_two{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+    gap: 1.5rem;
+}
+.heading{
+    font-size: 3rem;
+    width: 13rem;
+    padding:0px;
+    margin: 0px;
+}
+.small_card{
+    display: flex;
+    flex-direction: column;
+}
+.header_text{
+    font-size: 1.4rem;
+    font-weight: 600;
+    width: 14rem;
+}
+.inner_text{
+    width: 18rem;
+    color: rgb(84, 82, 82);
 }
