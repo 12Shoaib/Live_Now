@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import {FcGoogle} from 'react-icons/fc'
 import {BsApple} from 'react-icons/bs'
 import { useNavigate } from 'react-router-dom'
@@ -8,9 +9,17 @@ import signin from './signin.module.css'
 
 
 const SignIn = () => {
+    const [formData , setFormData] = useState({})
     const navigate = useNavigate()
     const handleregisterPage = () => {
         navigate('/clientsignup')
+    }
+    const formInputs = (event) => {
+        const {name , value} = event.target
+        setFormData({
+            ...formData,
+            [name]:value
+        })
     }
     return(    
         <div className={signin.container}>
@@ -23,8 +32,8 @@ const SignIn = () => {
                     <h1 className={signin.heading}>Log in </h1>
                     <div className={signin.siginOptions}><FcGoogle className={signin.icon} />SignIn with Google</div>
                     <div className={signin.siginOptions}><BsApple  className={signin.icon} />Sign in with Apple</div>
-                    <Input type='text' placeholder='@YourName' />
-                    <Input type='password' placeholder='@Password' />
+                    <Input name='userName' onChange={formInputs} type='text' placeholder='@YourName' />
+                    <Input name='userPassword' onChange={formInputs} type='password' placeholder='@Password' />
                     <p className={signin.text}>Forget Password</p>
                     <Button name ="Submit" />
                     <p className={signin.text_one}>Don't have an account? <span onClick={handleregisterPage} className={signin.highlighter}>Register here</span></p>

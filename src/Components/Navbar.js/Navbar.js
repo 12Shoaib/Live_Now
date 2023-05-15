@@ -1,6 +1,6 @@
-import navbar from './navbar.module.css'
-import  {useNavigate} from 'react-router-dom'
+import  { useNavigate } from 'react-router-dom'
 import { AiOutlineCloudServer } from 'react-icons/ai'
+import navbar from './navbar.module.css'
 
 const Navbar = () => {
     const navigate = useNavigate()
@@ -20,7 +20,7 @@ const Navbar = () => {
         // navigate('/About')
     }
     const redirectWhy = () => {
-        // navigate('/WhyUs')
+        navigate('/WhyUs')
     }
     const redirectLogin = () => {
         navigate('/clientLogIn')
