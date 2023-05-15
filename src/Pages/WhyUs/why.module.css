@@ -52,6 +52,8 @@
     justify-content: center;
     gap: 4rem;
     flex-wrap: wrap;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 .icon1{
     color: rgba(25, 99, 218, 0.5);
