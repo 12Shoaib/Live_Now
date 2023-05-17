@@ -17,7 +17,7 @@ const Navbar = () => {
         navigate('/Product')
     }
     const redirectAbout = () => {
-        // navigate('/About')
+        navigate('/About')
     }
     const redirectWhy = () => {
         navigate('/WhyUs')

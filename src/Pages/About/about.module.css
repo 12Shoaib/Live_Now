@@ -2,11 +2,93 @@
     padding: 0px;
     margin: 0px;
     background-color: black;
-    height: 100vh;
+    height: auto;
     width: 100vw;
     padding-top: 6rem;
     color: white;
 }
 .childrenDiv{
     background-color: rgb(56, 145, 222);
+}
+.card{
+    margin-top: 1rem;
+    border: 0.01rem solid red;
+    padding: 1rem 6rem;
+    color: black;
+    background-color: white;
+    padding-bottom: 1rem;
+}
+.heading{
+    font-size: 3rem;
+    font-weight: 700;
+    width: 28rem;
+    padding: 0px;
+    margin: 0px;
+}
+.sub_heading{
+    padding: 0px;
+    margin: 0px;
+    width: 28rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    word-spacing: 0.1rem;
+    margin-top: 1rem;
+}
+.image{
+    height: 28rem;
+    width: 22rem;
+    position: absolute;
+    top: 8rem;
+    left: 45rem;
+    border-radius: 5px;
+}
+.mini_cards_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+.mini_card{
+    height: 14rem;
+    width: 32rem;
+    border-radius: 10px;
+    background-color: rgba(35, 33, 33, 0.621);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+}
+.min_card_heading{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+.min_card_sub_heading{
+    padding: 0px;
+    margin: 0px;
+    color: rgb(164, 162, 162);   
+    font-weight: 400;
+    letter-spacing: 0.02rem;
+}
+.icon{
+    color: rgba(144, 238, 144, 0.756);
+}
+.icon_2{
+    color: purple;
+}
+.icon_3{
+    color: antiquewhite;
+}
+.icon_4{
+    color: blueviolet;
+}
+.icon_5{
+    color: aqua;
+}
+.icon_6{
+    color:rgba(255, 99, 71, 0.829);
 }
