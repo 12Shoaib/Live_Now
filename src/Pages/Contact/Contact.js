@@ -1,5 +1,9 @@
 import { useState } from 'react'
 import {AiOutlineCloudServer} from 'react-icons/ai'
+import {BsYoutube} from 'react-icons/bs'
+import {FaTwitterSquare} from 'react-icons/fa'
+import {BsWhatsapp} from 'react-icons/bs'
+import {GrInstagram} from 'react-icons/gr'
 import contact from './contact.module.css'
 import Navbar from '../../Components/Navbar.js/Navbar'
 
@@ -40,6 +44,21 @@ const Contact = () => {
             </div>
             </div>
         </div>
+        <div className={contact.footer_main_Component}>
+                <h1 className={contact.footer_heading}>< AiOutlineCloudServer className={contact.logo}/>Livenow</h1>
+                <div className={contact.copyRights_Container}>
+
+                    <p className={contact.copyRights}> © 2023 LiveNow - LLc</p>
+                    <p className={contact.copyRights}> All rights reserved to Livenow- imprint</p>
+                    <p className={contact.copyRights}> Terms of service - Data protection - LiveNow</p>
+                </div>
+                <div className={contact.social_Media}>
+                <a className={contact.links} href='https://www.youtube.com/'><BsYoutube/> Youtube</a>
+                <a className={contact.links} href='https://web.whatsapp.com/'> <BsWhatsapp /> Whatsapp</a>
+                <a className={contact.links} href='https://twitter.com/'><FaTwitterSquare /> Twitter</a>
+                <a className={contact.links} href='https://www.instagram.com/'><GrInstagram/>Instagram</a>
+                </div>
+            </div>
         </>
     )
 }

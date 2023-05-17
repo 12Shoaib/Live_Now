@@ -4,6 +4,12 @@ import {TbMessages} from 'react-icons/tb'
 import {FiUsers} from 'react-icons/fi'
 import {DiNodejs} from 'react-icons/di'
 import {FaRegThumbsUp} from 'react-icons/fa'
+import {AiOutlineCloudServer} from 'react-icons/ai'
+import {BsYoutube} from 'react-icons/bs'
+import {FaTwitterSquare} from 'react-icons/fa'
+import {BsWhatsapp} from 'react-icons/bs'
+import {GrInstagram} from 'react-icons/gr'
+
 import {MdSupportAgent} from 'react-icons/md'
 import {FaHammer} from 'react-icons/fa'
 import {AiFillLock} from 'react-icons/ai'
@@ -62,6 +68,7 @@ const _dataTwo = [
 
 const Why = () => {
     return(
+        <>
         <div className={why.main__component}>
             <Navbar />
             <div className={why.container}>
@@ -86,6 +93,23 @@ const Why = () => {
                 </div>
             </div>
         </div>
+
+        <div className={why.footer_main_Component}>
+                <h1 className={why.footer_heading}>< AiOutlineCloudServer className={why.logo}/>Livenow</h1>
+                <div className={why.copyRights_Container}>
+
+                    <p className={why.copyRights}> © 2023 LiveNow - LLc</p>
+                    <p className={why.copyRights}> All rights reserved to Livenow- imprint</p>
+                    <p className={why.copyRights}> Terms of service - Data protection - LiveNow</p>
+                </div>
+                <div className={why.social_Media}>
+                <a className={why.links} href='https://www.youtube.com/'><BsYoutube/> Youtube</a>
+                <a className={why.links} href='https://web.whatsapp.com/'> <BsWhatsapp /> Whatsapp</a>
+                <a className={why.links} href='https://twitter.com/'><FaTwitterSquare /> Twitter</a>
+                <a className={why.links} href='https://www.instagram.com/'><GrInstagram/>Instagram</a>
+                </div>
+            </div>
+        </>
     )
 }   
 export default Why

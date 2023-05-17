@@ -1,11 +1,17 @@
-import about from './about.module.css'
-import Navbar from '../../Components/Navbar.js/Navbar'
 import {BsGlobeCentralSouthAsia} from 'react-icons/bs'
 import {BiCodeBlock} from 'react-icons/bi'
 import {ImUsers} from 'react-icons/im'
 import {FaAssistiveListeningSystems} from 'react-icons/fa'
 import {SiSololearn} from 'react-icons/si'
 import {SiWebmoney} from 'react-icons/si'
+import {AiOutlineCloudServer} from 'react-icons/ai'
+import {BsYoutube} from 'react-icons/bs'
+import {FaTwitterSquare} from 'react-icons/fa'
+import {BsWhatsapp} from 'react-icons/bs'
+import {GrInstagram} from 'react-icons/gr'
+import about from './about.module.css'
+import Navbar from '../../Components/Navbar.js/Navbar'
+
 
 const data = [
     {
@@ -55,6 +61,22 @@ const About = ( ) => {
                         <h1 className={about.min_card_heading}>{element.icon} {element.title}</h1>
                         <p className={about.min_card_sub_heading} >{element.content}</p>
                     </div>)}    
+                </div>
+            </div>
+
+            <div className={about.footer_main_Component}>
+                <h1 className={about.footer_heading}>< AiOutlineCloudServer className={about.logo}/>Livenow</h1>
+                <div className={about.copyRights_Container}>
+
+                    <p className={about.copyRights}> © 2023 LiveNow - LLc</p>
+                    <p className={about.copyRights}> All rights reserved to Livenow- imprint</p>
+                    <p className={about.copyRights}> Terms of service - Data protection - LiveNow</p>
+                </div>
+                <div className={about.social_Media}>
+                <a className={about.links} href='https://www.youtube.com/'><BsYoutube/> Youtube</a>
+                <a className={about.links} href='https://web.whatsapp.com/'> <BsWhatsapp /> Whatsapp</a>
+                <a className={about.links} href='https://twitter.com/'><FaTwitterSquare /> Twitter</a>
+                <a className={about.links} href='https://www.instagram.com/'><GrInstagram/>Instagram</a>
                 </div>
             </div>
         </>
